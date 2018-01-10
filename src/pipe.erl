@@ -1,8 +1,6 @@
 -module(pipe).
 -author("sjanota").
 
--include_lib("logger/include/logger.hrl").
-
 -define(HEAD, fun(S, Args) -> S ++ Args end).
 -define(TAIL, fun(S, Args) -> Args ++ S end).
 
