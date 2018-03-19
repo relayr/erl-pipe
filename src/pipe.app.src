@@ -2,10 +2,11 @@
 % This file is for compatibility issues only.
 {application, pipe, [
     {description, "Pipes"},
-    {vsn, "1.0"},
+    {vsn, "1.0.0"},
     {modules, [
         pipe
     ]},
     {registered, []},
-    {applications, [kernel, stdlib]}
+    {applications, [kernel, stdlib]},
+    {licenses, ["MIT"]}
 ]}.
