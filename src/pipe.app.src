@@ -3,10 +3,11 @@
 {application, pipe, [
     {description, "Pipes"},
     {vsn, "1.0.0"},
+    {licenses, ["MIT"]},
+    {links, [{"GitHub", "https://github.com/relayr/pdm-erl-pipe"}]},
     {modules, [
         pipe
     ]},
     {registered, []},
-    {applications, [kernel, stdlib]},
-    {licenses, ["MIT"]}
+    {applications, [kernel, stdlib]}
 ]}.

@@ -13,7 +13,6 @@
 -export([]).
 
 -include_lib("testutils/include/testing.hrl").
--include_lib("logger/include/logger.hrl").
 
 -ifdef(TEST).
 

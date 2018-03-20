@@ -1,8 +1,1 @@
-[{<<"logger">>,
-  {git,"https://github.com/relayr/pdm-erl-logger.git",
-       {ref,"8a1e51e0022ff27279282727de1e07ee96757950"}},
-  0},
- {<<"process_group">>,
-  {git,"https://github.com/relayr/pdm-erl-process-group.git",
-       {ref,"6cb1831f0833816750d809b06a60169aa540c412"}},
-  1}].
+[].
