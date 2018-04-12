@@ -1,13 +1,8 @@
-% pipe is a library not an application.
-% This file is for compatibility issues only.
-{application, pipe, [
-    {description, "Pipes"},
-    {vsn, "1.0.0"},
-    {licenses, ["MIT"]},
-    {links, [{"GitHub", "https://github.com/relayr/pdm-erl-pipe"}]},
-    {modules, [
-        pipe
-    ]},
-    {registered, []},
-    {applications, [kernel, stdlib]}
-]}.
+{application,pipe,
+             [{description,"Pipes"},
+              {vsn,"1.0.1"},
+              {licenses,["MIT"]},
+              {links,[{"GitHub","https://github.com/relayr/pdm-erl-pipe"}]},
+              {modules,[pipe]},
+              {registered,[]},
+              {applications,[kernel,stdlib]}]}.
