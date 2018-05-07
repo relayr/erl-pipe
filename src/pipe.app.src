@@ -2,7 +2,7 @@
              [{description,"Pipes"},
               {vsn,"1.0.1"},
               {licenses,["MIT"]},
-              {links,[{"GitHub","https://github.com/relayr/pdm-erl-pipe"}]},
+              {links,[{"GitHub","https://github.com/relayr/erl-pipe"}]},
               {modules,[pipe]},
               {registered,[]},
               {applications,[kernel,stdlib]}]}.
