@@ -1,6 +1,6 @@
 {application,pipe,
              [{description,"Pipes"},
-              {vsn, "1.0.10"},
+              {vsn, "1.0.11"},
               {licenses,["MIT"]},
               {links,[{"GitHub","https://github.com/relayr/erl-pipe"}]},
               {modules,[pipe]},
